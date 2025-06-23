@@ -11,7 +11,7 @@ buttons = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton("Update", url="https://t.me/pythonbotz"),
         InlineKeyboardButton("Support", url="https://t.me/offchats")],
-        [ InlineKeyboardButton("Buy Premium", url= "t.me/CallAdminsRobot"),
+        [ InlineKeyboardButton("Buy Premium", url= "t.me/metaui"),
          InlineKeyboardButton("Help", url="https://graph.org/How-To-Use-12-04")]
     ]
 )
