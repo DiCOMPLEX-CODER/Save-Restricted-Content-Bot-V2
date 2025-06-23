@@ -21,9 +21,9 @@ async def chk_user(message, user_id):
         return 0
     else:
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("Cʟɪᴄᴋ Hᴇʀᴇ ᴛᴏ Sᴇᴇ Pʟᴀɴs", url="https://t.me/faony")],
-            [InlineKeyboardButton("ʟᴇᴇᴄʜ ɢʀᴏᴜᴘ ", url="https://t.me/LuffyLeech"),
-             InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ", url="https://t.me/faony")]
+            [InlineKeyboardButton("Cʟɪᴄᴋ Hᴇʀᴇ ᴛᴏ Sᴇᴇ Pʟᴀɴs", url="https://graph.org/ContentSaverXrobot-06-23")],
+            [InlineKeyboardButton("ʟᴇᴇᴄʜ ɢʀᴏᴜᴘ ", url="https://t.me/Pythonbotz"),
+             InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ", url="https://t.me/metaui")]
         ])
         
         await message.reply_text(
@@ -46,7 +46,7 @@ async def subscribe(app, message):
       try:
          user = await app.get_chat_member(update_channel, message.from_user.id)
          if user.status == "kicked":
-            await message.reply_text("Sorry Sir, You are Banned. Contact -- @CallAdminsRobot")
+            await message.reply_text("Sorry Sir, You are Banned. Contact -- @metaui")
             return 1
       except UserNotParticipant:
          await message.reply_photo(photo="https://graph.org/file/d44f024a08ded19452152.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Now...", url=f"{url}")]]))
