@@ -30,6 +30,6 @@ async def stats(client, message):
 **Total Users** : {users}
 **Premium Users** : {len(premium)}
 
-**__Powered by OUTLAW BOTS__**
+**__Powered by Python Botz__**
 """)
   
